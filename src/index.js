@@ -8,8 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     addToy = !addToy;
     if (addToy) {
       toyFormContainer.style.display = "block";
+      
     } else {
       toyFormContainer.style.display = "none";
     }
   });
+   
 });
+
+
+
